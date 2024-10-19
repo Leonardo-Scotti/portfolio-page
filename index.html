@@ -8,20 +8,20 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <div class="logo">
                 LS
             </div>
             <menu>
                 <a href="#sobre">Sobre</a>
                 <a href="#skills">Skills</a>
-                <a href="">Projetos</a>
-                <a href="">Contato</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
             </menu>
         </nav>
     </header>
     <main>
-        <section id="sobre" class="container-sobre">
+        <section id="sobre" class="container-sobre container fade-in">
             <div class="text-sobre">
                 <h1>Leonardo Scotti</h1>
                 <p>Sou um desenvolvedor Front-end e estou cursando Back-end, com linguagem PHP e Banco de dados.</p>
@@ -31,7 +31,7 @@
                 <img src="assets/dev.png" alt="Imagem de Desenvolvedor">
             </div>
         </section>
-        <section id="skills">
+        <section id="skills" class=" container fade-in">
             <h2>Skills</h2>
             <div class="container-skills">
                 <div class="skill">
@@ -56,7 +56,50 @@
                 </div> -->
             </div>
         </section>
+        <section id="projetos" class="fade-in">
+            <h2>Projetos</h2>
+            <div class="container-projects">
+                <div class="project">
+                    <h3>Site do TCC de Front-end</h3>
+                    <p>Projeto feito com inspiração em um site já existente, maior projeto que já criei do zero e utilizei o mesmo para meu TCC.</p>
+                    <div>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Landing Page</h3>
+                    <p>Com inspiração em um personagem fictício, essa landing page foi criada a fim de treinar e aperfeiçoar minhas técnicas de:</p>
+                    <div>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-contato"> Contate-me! </h2>
+            <form class="contato-form">
+                <div class="grupo-formulario">
+                    <label for="nome"> Nome </label>
+                    <input id="nome" name="nome" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email"> Email </label>
+                    <input id="email" name="email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensagem"> Mensagem </label>
+                    <textarea id="mensagem" name="mensagem" required> </textarea>
+                </div>
+                <button type="submit"> Mandar mensagem</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>&copy;2024. Leonardo Scotti</p>
+    </footer>
 </body>
 
 </html>
