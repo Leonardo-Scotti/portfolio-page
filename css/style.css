@@ -7,7 +7,7 @@
 }
 
 :root {
-    --cor-de-fundo: #f0f4f8;
+    --cor-de-fundo: #fafafa;
     --cor-de-texto: #1a202c;
     --cor-primaria: #4299e1;
     --cor-secundaria: #2b6cb0;
@@ -69,7 +69,7 @@ menu a {
 }
 
 main {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .container-sobre {
